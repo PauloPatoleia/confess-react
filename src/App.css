@@ -1,0 +1,45 @@
+.border-color {
+    border-color: #707070 !important;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+
+input:focus {
+    border-color: #707070 !important;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+    background-color: #E7EEEE !important;
+}
+
+textarea:focus {
+    background-color: #E7EEEE !important;
+}
+
+.text-color {
+    color: #233443;
+}
+
+a.text-color:hover {
+    color: #fff;
+}
+html, body, .background-color {
+    background: #E7EEEE;
+}
+@media only screen and (max-width: 767px) {
+    .fix-small-border {
+        border-right:0 !important;
+        border-bottom: 1px solid #707070 !important;
+        margin: 0 0 1em 0 !important;
+        padding-bottom: 1em;
+    }
+    .body-phone-text {
+        text-align: center;
+    }
+    .submit-button {
+    font-size: 4vw;
+}
+}
