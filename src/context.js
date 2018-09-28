@@ -31,7 +31,7 @@ export class Provider extends Component {
     dispatch: action => { this.setState(state => reducer(state,action)) }
   }
  async componentDidMount() {
-    const res = await axios.get('https://vuka-projects-vukateam.c9users.io/api/posts');
+    const res = await axios.get('https://sheltered-castle-37414.herokuapp.com/api/posts');
 
     this.setState({
         messages: res.data
